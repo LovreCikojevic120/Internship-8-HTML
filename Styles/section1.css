@@ -10,7 +10,7 @@
     background-color: #f4f4f2;
 }
 
-.description{
+.main-section-header__subtitle{
     font-size: 12px;
 }
 
@@ -31,14 +31,19 @@
 .main-section-article-textbox1{
     box-sizing: border-box;
     width: 44%;
-    padding-top: 20%;
     height: auto;
     display: inline-block;
-    text-align: left;
+    padding-bottom: 20%;
 }
 
-.padding-left{
-    padding-left: 5%;
+.main-section-article-textbox1__title1{
+    text-align: left;
+    padding-left: 10%;
+}
+
+.main-section-article-textbox1__subtitle1{
+    text-align: left;
+    padding-left: 10%;
 }
 
 .main-section-article-textbox2{
@@ -48,10 +53,11 @@
     background-repeat: no-repeat;
     display: inline-block;
     color: white;
+    vertical-align: bottom;
+    padding-top: 33%;
 }
 
 .main-section-article-textbox2__title2{
-    padding-top: 61%;
     padding-left: 5%;
     padding-bottom: 5%;
 }
