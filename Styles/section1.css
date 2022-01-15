@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main-section{
+    padding: 0 10%;
+    margin:auto;
+    background-color: #f4f4f2;
+}
+
+.description{
+    font-size: 12px;
+}
+
+.main-section-header{
+    padding: 5% 20%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main-section-header__title{
+    margin-bottom: 1%;
+}
+
+.main-section-article{ 
+    background-color: white;
+}
+
+.main-section-article-textbox1{
+    box-sizing: border-box;
+    width: 44%;
+    padding-top: 20%;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.padding-left{
+    padding-left: 5%;
+}
+
+.main-section-article-textbox2{
+    width: 55%;
+    box-sizing: border-box;
+    background-image: url(../assets/teaching.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    color: white;
+}
+
+.main-section-article-textbox2__title2{
+    padding-top: 61%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.main-section-article-textbox2__subtitle2{
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.main-section-subarticle{
+    margin: 5% 0;
+    padding-left: 3%;
+    width: 45%;
+    display: inline-block;
+}
+
+.main-section-subarticle__text{
+    padding: 5%;
+}
+
+.main-section-subarticle__text__title{
+    margin-bottom: 2%;
+}
+
+.main-section-subarticle > img{
+    width: 350px;
+    max-width: 100%;
+    height: 200px;
+    object-fit: fill;
+    background-color: yellow;
+    padding-bottom: 2%;
+}
+
