@@ -2,28 +2,33 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: sans-serif;
 }
 
 .sub-section{
     margin-top: 2%;
     background-color: #f4f4f2;
+    font-size: 0%;
 }
 
-.sub-section__text{
+.sub-section-textbox{
     display: inline-block;
     vertical-align: middle;
-    width: 49%;
-    padding: 8.5% 0%;
-    background-color: orange;
+    width: 50%;
+    margin-top: 5%;
+    padding: 7% 0%;
+    background-color: #ffc40c;
 }
 
-.sub-section__text__title{
-    font-size: 30px;
-    padding: 0% 24%;
+.sub-section-textbox__title{
+    font-size: 33px;
+    line-height: 38px;
+    color: #2a2a2a;
+    padding: 9.3% 20%;
 }
 
 .sub-section__image{
-    vertical-align: middle;
+    vertical-align: bottom;
     width: 50%;
     height: inherit;
     display: inline-block;
