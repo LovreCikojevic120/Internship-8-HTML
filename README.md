@@ -1,3 +1,3 @@
-# Internship-8-HTML
+# DUMP Internship Assignment #8
 
-Screen resolution: 1920x1080
+Project covering the basics of HTML
